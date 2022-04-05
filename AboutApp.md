@@ -23,8 +23,8 @@ As always here are things to look out for:
 </li>
 
 
-<ol>
+<h3>
     <b>
-    Used technologies API to fetch data from newsapi.org 
+     1. Used technologies API to fetch data from newsapi.org 
     </b>
-</ol>
+</h3>
