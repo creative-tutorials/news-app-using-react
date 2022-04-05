@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 function App() {
   const [show, setshow] = useState(false); //show is the state and setshow is the function to change the state
+  const [hide, sethide] = useState(false); 
   const requestPost = () => {
     let API_KEY = '1b6ab7da59644e59a0a28ebf0a34a53a';
     const newInput = document.getElementById("input");
@@ -57,6 +58,7 @@ function App() {
 
     const allImage = document.querySelectorAll(".news_image");
     const links = document.querySelectorAll(".link");
+    const alert_box = document.querySelector(".alert");
     let newInputValue = newInput.value;
 
     for (let i = 0; i < allImage.length; i++) {
@@ -70,7 +72,7 @@ function App() {
       // element.style.display = "block";
       setshow(!show + element.classList.add("show")); // adding class show to the image
     }
-
+    sethide(!hide + alert_box.classList.add("hide")); // adding class show to the image
     fetch(
       `https://newsapi.org/v2/everything?q=${newInputValue}&apiKey=${API_KEY}`
     )
@@ -137,8 +139,7 @@ function App() {
             />
           </div>
           <div className="box">
-            <div className="empty alert">No news found try searching a topic to get result</div>
-            <div className="error alert"></div>
+            <div className="alert">No news found try searching a topic to get result</div>
             <div className="box_space">
             <div className="box_content">
               <div className="news_image">

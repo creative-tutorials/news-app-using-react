@@ -26,6 +26,8 @@
   border-radius: 3px;
   outline: none;
   border: 2px solid #bfbfbf;
+  user-select: none;
+  transition: all .1s cubic-bezier(0.39, 0.58, 0.57, 1);
 }
 .wrapper .content .einput input:focus{
   border-color: #222831;
@@ -66,7 +68,12 @@
   font-weight: 500;
   border-radius: 4px;
   font-size: 1em;
+  user-select: none;
   cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.wrapper .content .box .button button:hover {
+  background: #073b4c;
 }
 .wrapper .content .box .box_space{
   width: 100%;
@@ -85,4 +92,11 @@
 }
 .link.show{
   display: block;
+}
+.alert{
+  text-align: center;
+  font-weight: 500;
+}
+.alert.hide{
+  display: none;
 }
