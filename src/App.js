@@ -4,6 +4,7 @@ function App() {
   const [show, setshow] = useState(false); //show is the state and setshow is the function to change the state
   const [hide, sethide] = useState(false); 
   const requestPost = () => {
+    let API_KEY = '1b6ab7da59644e59a0a28ebf0a34a53a';
     const newInput = document.getElementById("input");
     const newsHeader = document.getElementById("news_header");
     const newsContent = document.getElementById("news_content");
