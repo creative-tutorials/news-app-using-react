@@ -31,6 +31,9 @@ As always here are things to look out for:
 
 <p>
     I used the newsapi.org API to fetch the data from the newsapi.org website.
+    The API is free and allows you to fetch the data from the newsapi.org website.
+    The API is used to fetch the data from the newsapi.org website.
+    To start using the API you need to register on the website and get your API key.
 </p>
 
 <h3>
@@ -56,3 +59,10 @@ As always here are things to look out for:
     The first value is the current state of the application.
     The second value is a function that allows you to update the state of the application
 </p>
+
+<br />
+<br />
+<br />
+<br />
+
+# Thanks for reading! I hope you enjoyed this article. And if you have any questions, feel free to contact me at <a href="mailto:treasureedesemhen500@gmail.com ">
