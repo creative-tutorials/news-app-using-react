@@ -65,4 +65,4 @@ As always here are things to look out for:
 <br />
 <br />
 
-# Thanks for reading! I hope you enjoyed this article. And if you have any questions, feel free to contact me at <a href="mailto:treasureedesemhen500@gmail.com ">
+# Thanks for reading! I hope you enjoyed this article. And if you have any questions, feel free to contact me at <a href="mailto:treasureedesemhen500@gmail.com ">Creative Tutorials</a>
