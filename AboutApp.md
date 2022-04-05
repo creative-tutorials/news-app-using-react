@@ -5,3 +5,26 @@ In this project I will be showing you how to create your own news app using Reac
 
 
 As always here are things to look out for:
+
+<li>
+    <b>
+        Used technologies API to fetch data from newsapi.org   
+    </b>
+</li>
+<li>
+    <b>
+        Used ReactJS to create the UI 
+    </b>
+</li>
+<li>
+    <b>
+        Used React useState Hook to manage the state of the application
+    </b>
+</li>
+
+
+<ol>
+    <b>
+    Used technologies API to fetch data from newsapi.org 
+    </b>
+</ol>
