@@ -49,16 +49,10 @@ As always here are things to look out for:
     </b>
 </h3>
 
-
-
 <p>
     I used React useState Hook to manage the state of the application.
-
     to explain the useState Hook, I will explain the useState Hook in the next section.
-
-
     The useState Hook is a function that returns an array of two values.
     The first value is the current state of the application.
-    The second value is a function that allows you to update the state of the application.
-
+    The second value is a function that allows you to update the state of the application
 </p>
